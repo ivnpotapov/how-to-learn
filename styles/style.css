@@ -43,6 +43,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   width: 388px;
   position: absolute;
   bottom: 30px;
@@ -94,6 +95,7 @@
 }
 
 .two-columns__brief {
+  margin: 0;
   width: 175px;
   color: #2f80ed;
   line-height: 1.2;
@@ -107,7 +109,7 @@
 }
 
 .two-columns__paragraph {
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
   line-height: 34px;
   font-size: 24px;
 }
@@ -148,6 +150,7 @@
 .table {
   width: 1100px;
   margin: 0 auto;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -160,12 +163,14 @@
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
+
 .table__text {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
   line-height: 1.2;
   font-size: 18px;
 }
@@ -296,6 +301,7 @@
 }
 
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -303,6 +309,7 @@
 
 .footer__column-links {
   margin: 20px 0 16px 0;
+  padding: 0;
   list-style: none;
 }
 
