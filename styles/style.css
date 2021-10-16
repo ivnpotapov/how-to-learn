@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -41,7 +35,7 @@
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   z-index: 2;
   font-size: 102px;
   line-height: 96px;
@@ -88,7 +82,7 @@
 /* description */
 
 .description {
-  padding: 100px 0;
+  padding-top: 100px;
   display: flex;
 }
 
@@ -179,7 +173,7 @@
 /* feynman */
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   background-image: url("../images/feynman.png");
   background-position: left bottom;
@@ -222,15 +216,18 @@
   padding: 90px 0;
   background-color: #1f1f1f;
   overflow: hidden;
-  z-index: -2;
 }
 
 .section-title_theme_dark {
   color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -238,6 +235,16 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  position: relative;
+  z-index: 1;
+}
+
+.table__text_theme_dark {
+  position: relative;
+  z-index: 1;
 }
 
 .kaufman-triangle {
@@ -248,7 +255,6 @@
   position: absolute;
   top: 0;
   right: -210px;
-  z-index: -1;
 }
 
 /* footer */
@@ -257,7 +263,7 @@
   padding: 60px 0 40px 0;
   background-color: #1f1f1f;
   color: #fff;
-  height: 350px;
+  min-height: 350px;
 }
 
 .footer__columns {
@@ -268,15 +274,18 @@
   justify-content: space-around;
 }
 
-.footer__columns_content_copyright {
+.footer__column {
+  height: 350px;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  justify-content: space-between;
   flex-basis: 711px;
 }
 
 .logo_place_footer {
-  width: 183px;
   height: 35px;
 }
 
