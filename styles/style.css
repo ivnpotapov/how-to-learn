@@ -276,21 +276,21 @@
 
 .footer {
   padding: 60px 0 40px 0;
+  min-height: 350px;
+  box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  min-height: 350px;
 }
 
 .footer__columns {
   margin: 0 auto;
+  min-height: 250px;
   width: 90%;
-  height: 100%;
   display: flex;
   justify-content: space-around;
 }
 
 .footer__column {
-  height: 350px;
   display: flex;
   flex-direction: column;
 }
