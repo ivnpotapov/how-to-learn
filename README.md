@@ -7,7 +7,7 @@
 HTML, CSS, BEM
 
 ### Ссылки
-Deploy [How to learn on GitHub Pages](https://ivnpotapov.github.io/how-to-learn/)
+Deploy for display 1920px [How to learn on GitHub Pages](https://ivnpotapov.github.io/how-to-learn/)
 
 ### Статус и планы по доработке проекта.
 Деплой проекта на бесплатном хостинге
